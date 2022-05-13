@@ -1,0 +1,181 @@
+.expDataDisplay {
+    margin-top: 25px;
+    width: 100%;
+    height: 375px;
+    display: flex;
+}
+
+.expDetails {
+    width: 65%;
+    height: 100%;
+}
+
+.expDetails .expGraph {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.UMIfno {
+    display: grid;
+}
+.UMInfodetail{
+    font-size: small;
+}
+
+.UMInfo span {
+    font-size: xx-large;
+    font-style: normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 50%;
+}
+.expDetails .expGraph img {
+    height: 100%;
+    width: auto;
+}
+
+
+.expDetails .expData {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.cardImage img{
+    height: 100%;
+}
+
+.expDetails .expData .expData1{
+    width: 48.5%;
+    height: 90%;
+    border-radius: 5px;
+    background: white;
+}
+
+.expDetails .expData .expData2{
+    width: 48.5%;
+    margin-left: 3%;
+    border-radius: 5px;
+    height: 90%;
+    background: white;
+}
+.expData1 div{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: auto;
+}
+
+.expData2 div{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: auto;
+}
+
+#hd1, #hd2, #hd3, #hd4{
+    height: 100%;
+    width: 50%;
+}
+
+#amountDisplay1, #amountDisplay2, #amountDisplay3, #amountDisplay4{
+    height: 100%;
+    width: 50%;
+}
+
+.expHistory {
+    width: 33%;
+    margin-left: 2%;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.expHistoryChild {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#expHHist {
+    height: 20%;
+}
+#expHList {
+    height: 80%;
+}
+#expImg {
+    left: 50%;
+    transform: translate(-50%,0);
+    top: -100%;
+    animation: expImageHide 0.5s linear 1s;
+    animation-fill-mode: forwards;
+    background-color: white;
+}
+#expImg img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.expHistoryDataHeader {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid black;
+}
+.expHistoryDataHeaderSpan {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.expHistoryDataHeaderImg {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.expHistoryDataHeader span {
+    font-size: x-large;
+    padding-left: 5%;
+}
+.expHistoryDataHeaderImg img {
+    position: relative;
+    height: 50%;
+    width: auto;
+}
+
+
+@keyframes expImageHide {
+    to {
+        visibility: hidden;
+        top: -50%;
+        display: none;
+        width: 0;
+        height: 0;
+    }
+}
+
+
+@media screen and (min-height:920px) {
+    .expDataDisplay {
+        height: 600px;
+    }
+}
+@media screen and (max-width:1350px){
+    #hd1, #hd2, #hd3, #hd4{
+        font-size: medium;
+    }
+}

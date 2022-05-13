@@ -1,0 +1,135 @@
+.dataArea {
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+
+.allData {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.eachData,
+.titles {
+	float: left;
+	display: flex;
+	margin: auto;
+	width: 95%;
+	position: inherit;
+	padding: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.titles {
+	margin-bottom: 5px;
+}
+
+.data-box,
+.eachDataHeading,
+.statusHeading,
+.status-box,
+.total {
+	width: 15%;
+	padding: 15px 20px;
+	background: white;
+	border: 1px solid black;
+	margin: 1px;
+	font-size: 1.2rem;
+}
+.data-box {
+	margin: 1px;
+}
+
+.eachDataHeading {
+	border-color: white;
+	background: transparent;
+	color: white;
+}
+
+.statusHeading {
+	border-color: white;
+	background: transparent;
+	width: 10%;
+	color: white;
+	text-align: center;
+}
+
+.status-box {
+	width: 10%;
+	background: transparent;
+	color: white;
+	text-align: center;
+	border: none;
+	transition-duration: 0.5s;
+}
+
+.anim {
+	border: 1px solid rgb(127, 255, 212);
+	background-color: rgb(127, 255, 212);
+}
+
+.Pending {
+	border: 1px solid red;
+	border-radius: 2px;
+}
+
+.Done {
+	border: 1px solid rgb(127, 255, 212);
+	border-radius: 2px;
+	user-select: none;
+}
+
+.Pending:hover {
+	background-color: rgb(127, 255, 212);
+	cursor: pointer;
+	color: Black;
+}
+
+.Pending:active {
+	background-color: rgb(38, 212, 154);
+	color: black;
+}
+
+.confirmForm {
+	width: 500px;
+	height: 250px;
+	background: rgb(255, 255, 255);
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 0.5rem;
+	border-bottom: 5px solid greenyellow;
+	box-shadow: 0 10px 25px 0 rgb(82, 82, 82);
+	transition-duration: 0.5s;
+}
+h3 {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 100%;
+	text-align: center;
+}
+.blur {
+	top: 0;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	backdrop-filter: blur(1.5px);
+	transition-duration: 0.5s;
+}
+
+.total {
+	width: 10%;
+	text-align: center;
+	height: 60px;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
+}
+#dataContainer {
+	margin-left: 15px;
+}

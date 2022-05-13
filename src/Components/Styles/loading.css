@@ -1,0 +1,28 @@
+#loading {
+	animation: rotation 3s infinite linear;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#loading img {
+	height: auto;
+}
+
+@keyframes rotation {
+	from {
+		-webkit-transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+		-webkit-transform: translate(-50%, -50%) rotate(359deg);
+	}
+}
+
+.noData {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}

@@ -1,0 +1,73 @@
+.allDataDisplay {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    margin-top: 25px;
+    font-size: larger;
+    display: flex;
+    border-radius: 5px;
+}
+
+.wrap {
+    padding: 25px;
+    padding-right: 0;
+    position: relative;
+    width: 100%;
+}
+
+.wrap table {
+    width: 100%;
+    table-layout: fixed;
+    cursor: pointer;
+}
+.wrap table tr td:last-child {
+    text-align: center;
+}
+
+.inner_table table tr {
+    transition-duration: 0.2s;
+}
+.inner_table table tr td:last-child {
+    border: 1px solid red;
+}
+.inner_table table tr td:last-child:hover {
+    background-color: aquamarine;
+}
+
+.inner_table tr:nth-child(even){
+    background-color: #ddd;
+}
+.inner_table tr:hover {
+    background-color: #00ABEB;
+    color: white;
+}
+
+table tr td {
+    padding: 5px;
+    border: 1px solid #eee;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+table.head {
+    padding-right: 17px;
+}
+table.head tr td {
+    background: #cecece;
+}
+
+.inner_table {
+    height: 90%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.doneState td {
+    border: 1px solid green;
+}
+
+@media screen and (min-height:920px) {
+    .allDataDisplay {
+        height: 675px;
+    }
+}

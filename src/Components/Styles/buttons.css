@@ -1,0 +1,85 @@
+.adbtn,
+.deleteButton {
+	position: relative;
+	height: 44px;
+	width: 5%;
+	font-size: 100%;
+	background-color: rgb(157, 190, 185);
+	border: 1px solid white;
+	padding: 0px;
+	border-radius: 2px;
+	margin: 15px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+.adbtn:hover {
+	color: white;
+}
+.adbtn:active {
+	background-color: rgb(162, 247, 234);
+	color: black;
+}
+
+.deleteButton {
+	margin: 5px;
+	height: auto;
+	background-color: rgb(255, 72, 72);
+}
+.deleteButton:hover {
+	color: white;
+}
+.deleteButton:active {
+	background-color: rgb(221, 47, 47);
+	color: black;
+}
+
+.confirmButton {
+	position: absolute;
+	height: 44px;
+	width: auto;
+	font-size: 100%;
+	background-color: greenyellow;
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 15px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	bottom: 0;
+	transform: translate(150%, 0);
+	box-shadow: 0 10px 10px 0 rgb(240, 240, 240);
+}
+.confirmButton:hover {
+	color: white;
+}
+.confirmButton:active {
+	background-color: rgb(151, 224, 41);
+	color: black;
+	transform: translate(150%, 5%);
+}
+
+.cancelButton {
+	right: 0;
+	transform: translate(-150%, 0);
+	background-color: red;
+	position: absolute;
+	height: 44px;
+	width: auto;
+	font-size: 100%;
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 15px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	bottom: 0;
+	box-shadow: 0 10px 10px 0 rgb(240, 240, 240);
+}
+.cancelButton:hover {
+	color: white;
+}
+.cancelButton:active {
+	background-color: rgb(221, 47, 47);
+	color: black;
+	transform: translate(-150%, 5%);
+}

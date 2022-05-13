@@ -1,0 +1,39 @@
+.topnav {
+	height: 50px;
+	width: 100%;
+	top: 0;
+	background-color: rgb(157, 190, 185);
+	position: fixed;
+	box-shadow: 0 10px 25px 0 rgb(56, 56, 56);
+	border-bottom: 2px solid;
+	z-index: 1;
+}
+.alrt {
+	position: absolute;
+	width: 30%;
+	background-color: rgb(127, 255, 244);
+	text-align: center;
+	left: 50%;
+	top: 37.5px;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+	transition-duration: 1s;
+	opacity: 0;
+	border-right: 10px solid aqua;
+	border-left: 10px solid aqua;
+	cursor: default;
+}
+.rd {
+	background-color: rgb(255, 76, 76);
+	border-color: red;
+	color: white;
+}
+.wt {
+	background-color: rgb(243, 241, 241);
+	border-color: rgb(255, 255, 255);
+}
+#topnavIcon img {
+	position: absolute;
+	width: 75px;
+	right: 0;
+}

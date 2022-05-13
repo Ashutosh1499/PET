@@ -1,0 +1,78 @@
+.contents {
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.sidebar {
+    margin: 25px;
+    position: relative;
+    height: 650px;
+    width: 250px;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+
+.profile {
+    /* background-color: blue; */
+    width: 100%;
+    height: 175px;
+    border-bottom: 1px solid black;
+}
+
+.allTabs {
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+}
+.tab {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition-duration: 0.5s ;
+}
+.tabAnim {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: #00ABEB;
+    margin-top: -10px;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index: 0;
+    border-radius: 2.5px;
+    transition-duration: 0.5s;
+    /* box-shadow: 0 10px 15px 0 #e9e9e9; */
+}
+span{
+    position: inherit;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+#tb1txt{
+    color: white;
+}
+#tb1an {
+    width: 75%;
+}
+.midContents {
+    width: 100%;
+    padding: 25px;
+    padding-top: 0;
+    padding-bottom: 0px;
+}
+@media screen and (min-height:920px) {
+    .sidebar {
+        height: 875px;
+    }
+}

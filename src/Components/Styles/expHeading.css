@@ -1,0 +1,40 @@
+.exphead {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+    margin-top:25px;
+}
+.exptitle {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    align-items: center;
+    padding-left: 10px;
+    font-weight: 1000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    /* background: linear-gradient(to right,rgb(0, 215, 129),#fe122c, #0154a7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color:#00ABEB;
+}
+.expyear {
+    display: flex;
+    width: 75%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+.expyear select{
+    font-size: 100%;
+    width: 75px;
+    height: 100%;
+    outline: none;
+    border: none;
+    transition-duration: 0.5s;
+}
