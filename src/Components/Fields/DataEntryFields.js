@@ -53,8 +53,6 @@ const DataEntryFields = () => {
 					<option value='Option2'>Option-2</option>
 					<option value='Option3'>Option-3</option>
 					<option value='Option4'>Option-4</option>
-					<option value='Option5'>Option-5</option>
-					<option value='Option6'>Option-6</option>
 					<option value='Other'>Other</option>
 				</select>
 				<input
